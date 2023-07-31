@@ -10,7 +10,10 @@
     background: #000;
     color: white;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(59, 58, 58);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .logo{}
@@ -57,7 +60,7 @@
     color: white;
 }
 .bannerDescribe{
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
 }
 .bannerDescribe h1{
@@ -71,7 +74,7 @@
     box-sizing: border-box;
 }
 .imageSection img{
-    margin-top: 100px;
+    margin-top: 200px;
    max-width: 100%;
    border-radius: 50%;
 }
@@ -157,4 +160,65 @@
 }
 
 /* Service Section END */
+
+/* Skill & Experience START*/
+#skill{
+     background: rgb(52, 52, 67);
+     color: white;
+}
+
+.skillAndExprience{
+    margin-top: 80px;
+}
+.skillAndExprience h1{
+    font-size: 60px;
+}
+.skillAndExprience .skillDec{
+    color: rgb(191, 187, 187);
+}
+
+.skillIcon{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.icon{
+     
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(191, 187, 187);
+    border-radius: 50%;
+    margin-top: 10px;
+    text-align: center;
+}
+.icon span{
+    font-size: 30px;
+    margin-top: 15px;
+    display: block;
+}
+.icon p{
+    color: rgb(191, 187, 187);
+    font-size: 10px;
+}
+
+.devSkillYear{
+    width: 300px;
+    margin-top: 70px;
+    border-bottom: 1px solid #ddd;
+}
+.devSkillYear .whiteClr{
+     color: rgb(191, 187, 187);
+}
+.devSkillYear .skillName{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.devSkillYear .skillName h6{
+   
+    font-size: 20px;
+}
+.devSkillYear .skillName p{
+    color: rgb(191, 187, 187);
+}
+/* Skill & Experience END*/
 
