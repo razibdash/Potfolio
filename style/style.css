@@ -18,6 +18,8 @@ body{
     padding: 10px;
     border-bottom: 1px solid rgb(59, 58, 58);
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 10;
 }
@@ -52,7 +54,14 @@ body{
 .menu ul li a:hover{
     color: rgb(149, 155, 160);
 }
+.sidebar{
+    display: none;
+   
 
+}
+.sideBarIcon{
+    visibility: hidden;
+}
 /* Header Section End */
 
 
@@ -176,6 +185,13 @@ body{
 .skillAndExprience{
     margin-top: 80px;
 }
+.skillAndExprience {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 .skillAndExprience h1{
     font-size: 60px;
 }
@@ -280,3 +296,99 @@ body{
 
 /* Project Section END*/
 
+ /* =========Footer Section Style========= */
+ footer{
+    background-color: #17293f;
+    color: #ddd;
+  }
+  footer .find-us{
+    display: -webkit-inline-box;
+    margin-top: 10px;
+    padding: 15px 0px;
+  }
+  footer .find-us .logo {
+    display: inline-block;
+
+  }
+  footer  .icons{
+    font-size: 30px;
+  }
+  .footer-border{
+    border-bottom: 1px solid rgb(62, 57, 57);
+  }
+  .findContent{
+    margin-left: 10px;
+    line-height: 8px;
+    margin-top: 8px;
+  }
+  .findContent .hedingText{
+    font-weight: bold;
+  }
+  .call-us{
+    display: -webkit-inline-box;
+    margin-top: 10px;
+    padding: 15px 0px;
+  }
+  .mail-us{
+    display: -webkit-inline-box;
+  margin-top: 10px;
+  padding: 15px 0px;
+  }
+  .C-logo {
+    display: flex;
+  }
+  .C-logo img{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+  }
+  .sub-heading{
+    color: #b1a8a8;;
+  }
+  .C-describe {
+    color: #b1a8a8;
+  }
+  .social-icons {
+    padding: 0px 5px;
+    font-size: 25px;
+  }
+  .useFull-links{}
+  .useFull-links ul{
+
+  }
+  .useFull-links ul li{
+    list-style: none;
+  color:  #b1a8a8;
+  line-height: 35px;
+  }
+  .sub-text{
+    color: #b1a8a8;
+  }
+  .sub-area .inp-area{
+    height: 50px;
+    width: 200px;
+    background-color: #17293f;
+    color: #b1a8a8 ;
+    border: 1px solid #6f6d6d;
+    padding: 10px;
+
+  }
+  .inp-area:focus{
+    border:1px solid #6f6d6d;
+      
+  }
+ 
+  .sub-area .sub-btn{
+    height: 50px;
+    background:  rgb(251,33,117);
+    border: none;
+    width: 100px;
+    margin-left: -10px;
+  }
+  .copyrights{
+    text-align: center;
+    border-top: 1px solid rgb(100, 97, 97);
+    color:#b1a8a8 ;
+    padding: 10px;
+  }
+  /* =========Footer Section Style END========= */

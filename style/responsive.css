@@ -1,0 +1,50 @@
+@media (max-width:990px){
+    /* ==========Header Section responsive========= */
+    .headerSection{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    
+    .sidebar{
+        display: none;
+        flex-direction: column;
+    }
+    .menu ul .forResponse{
+        display: none;
+    }
+    .rajib .col-md-4{
+        float: left;
+       
+    }
+    .menu ul li{
+        text-align: left;
+        padding-top: 20px;
+       
+    }
+    .rajib .col-md-8{
+        float:right;
+       
+    }
+    .menu ul .sideBarIcon{
+        visibility: visible;
+        padding: 0;
+        color: white;
+    }
+    .closeBtn{
+        height: 30px;
+        border: 1px solid #ddd;
+        margin-left: 21px;
+        line-height: 30px;
+        border-radius: 5px;
+
+    }
+    /* ==========Header Section responsive END========= */
+    .bannerDescribe {
+        text-align: center;
+      }
+    
+    
+}

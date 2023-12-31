@@ -7,27 +7,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <!-- Header Section Start -->
      <header id="headerSection">
            <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row rajib">
+                <div class="col-md-4 ">
                     <div class="logo">
-                        <p><a href="">Avronil Rajib</a></p>
+                        <p><a href="">Avronil</a></p>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 ">
                     <div class="menu">
-                        <ul>
+                        <ul >
+                            <li class="forResponse"><a href="#index.html">Home</a></li>
+                            <li class="forResponse"><a href="#ServiceSection">Services</a></li>
+                            <li class="forResponse"><a href="#skill">Skill & Experiance</a></li>
+                            <li class="forResponse"><a href="#projectList">Latest Project</a></li>
+                            <li class="forResponse"><a href="#footer">Contact</a></li>
+                            <li onclick="showSideBar()" class="sideBarIcon"><a href="#">
+                                <i class="fa-solid fa-bars"></i>
+                            </a></li>
+                        </ul>
+                        <ul class="sidebar">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#ServiceSection">Services</a></li>
                             <li><a href="#skill">Skill & Experiance</a></li>
                             <li><a href="#projectList">Latest Project</a></li>
                             <li><a href="">Contact</a></li>
+                            <li  onclick="closeSideBar()"><a class="closeBtn" href="#">
+                                <i class="fa-solid fa-xmark"></i>
+                            </a></li>
                         </ul>
                     </div>
+                    
                 </div>
             </div>
            </div>
@@ -326,6 +342,103 @@
     </section>
 
      <!-- Project Section START -->
+     <!-- Footer Section START -->
+     <footer id="footer">
+        <div class="container">
+            <div class="row footer-border">
+                <div class="col-md-4">
+                    <div class="find-us">
+                        <div class="logo">
+                            <span class="icons"><i class="fa-solid fa-location-dot"></i></span>
+                        </div>
+                       <div class="findContent">
+                            <p class="hedingText">Find Me</p>
+                            <p class="sub-heading">Sylhet 3100,Modina Market,pollobi Road</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="call-us">
+                        <div class="logo">
+                            <span class="icons"><i class="fa-solid fa-phone"></i></span>
+                        </div>
+                       <div class="findContent">
+                            <p class="hedingText">Call Me</p>
+                            <p class="sub-heading">+8801791830152</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mail-us">
+                        <div class="logo">
+                            <span class="icons"><i class="fa-solid fa-envelope"></i></span>
+                        </div>
+                       <div class="findContent">
+                            <p class="hedingText">Mail Me</p>
+                            <p class="sub-heading">avronilrajib@gmail.com</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="C-logo">
+                        
+                        <span><h2>Avronil Rajib</h2></span>
+                    </div>
+                    <div class="C-describe">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Quos incidunt reprehenderit autem dolorem porro nihil quae est perspiciatis corrupti quidem,
+                             </p>
+                    </div>
+                    <div class="follow-us">
+                        <h2>Follow Me</h2>
+                        <div class="social-logo">
+                            <span class="social-icons"><i class="fa-brands fa-facebook"></i></span>
+                            <span class="social-icons"><i class="fa-brands fa-square-instagram"></i></span>
+                            <span class="social-icons"><i class="fa-brands fa-linkedin"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="useFull-links">
+                        <ul>
+                            <h3>Useful Links</h3>
+                            <li>Lorem, ipsum dolor.
+                            </li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subscribe">
+                        <div class="subscribes">
+                            <h3>Subscribe</h3>
+                        </div>
+                        <div class="sub-text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur laboriosam 
+                                dicta pariatur assumenda illum sed aliquid quasi, qui rerum voluptatibus.</p>
+                        </div>
+                        <div class="sub-area">
+                            <input class="inp-area" placeholder="Email Address" type="text" name="" id="">
+                            <button class="sub-btn"><i class="fa-regular fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyrights">
+                        <span>Copyright <i class="fa-solid fa-copyright"></i> 2023 All Right Reserved by rajib</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <!-- Footer Section END -->
 
   <script src="index.js"></script>
 </body>
